@@ -14,19 +14,8 @@
 		59FB1FE71AC452FE008CE978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FB1FE51AC452FE008CE978 /* Main.storyboard */; };
 		59FB1FE91AC452FE008CE978 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FB1FE81AC452FE008CE978 /* Images.xcassets */; };
 		59FB1FEC1AC452FE008CE978 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59FB1FEA1AC452FE008CE978 /* LaunchScreen.xib */; };
-		59FB1FF81AC452FE008CE978 /* JSONTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB1FF71AC452FE008CE978 /* JSONTestTests.m */; };
 		59FB20021AC4556C008CE978 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 59FB20011AC4556C008CE978 /* test.json */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		59FB1FF21AC452FE008CE978 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59FB1FD01AC452FE008CE978 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 59FB1FD71AC452FE008CE978;
-			remoteInfo = JSONTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5909EF641AC459D300DB9CFA /* tableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableCell.h; sourceTree = "<group>"; };
@@ -41,21 +30,11 @@
 		59FB1FE61AC452FE008CE978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59FB1FE81AC452FE008CE978 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		59FB1FEB1AC452FE008CE978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		59FB1FF11AC452FE008CE978 /* JSONTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59FB1FF61AC452FE008CE978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		59FB1FF71AC452FE008CE978 /* JSONTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONTestTests.m; sourceTree = "<group>"; };
 		59FB20011AC4556C008CE978 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		59FB1FD51AC452FE008CE978 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59FB1FEE1AC452FE008CE978 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				59FB1FDA1AC452FE008CE978 /* JSONTest */,
-				59FB1FF41AC452FE008CE978 /* JSONTestTests */,
 				59FB1FD91AC452FE008CE978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				59FB1FD81AC452FE008CE978 /* JSONTest.app */,
-				59FB1FF11AC452FE008CE978 /* JSONTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +87,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		59FB1FF41AC452FE008CE978 /* JSONTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				59FB1FF71AC452FE008CE978 /* JSONTestTests.m */,
-				59FB1FF51AC452FE008CE978 /* Supporting Files */,
-			);
-			path = JSONTestTests;
-			sourceTree = "<group>";
-		};
-		59FB1FF51AC452FE008CE978 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				59FB1FF61AC452FE008CE978 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,24 +107,6 @@
 			productReference = 59FB1FD81AC452FE008CE978 /* JSONTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59FB1FF01AC452FE008CE978 /* JSONTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 59FB1FFE1AC452FE008CE978 /* Build configuration list for PBXNativeTarget "JSONTestTests" */;
-			buildPhases = (
-				59FB1FED1AC452FE008CE978 /* Sources */,
-				59FB1FEE1AC452FE008CE978 /* Frameworks */,
-				59FB1FEF1AC452FE008CE978 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				59FB1FF31AC452FE008CE978 /* PBXTargetDependency */,
-			);
-			name = JSONTestTests;
-			productName = JSONTestTests;
-			productReference = 59FB1FF11AC452FE008CE978 /* JSONTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +118,6 @@
 				TargetAttributes = {
 					59FB1FD71AC452FE008CE978 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					59FB1FF01AC452FE008CE978 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 59FB1FD71AC452FE008CE978;
 					};
 				};
 			};
@@ -197,7 +135,6 @@
 			projectRoot = "";
 			targets = (
 				59FB1FD71AC452FE008CE978 /* JSONTest */,
-				59FB1FF01AC452FE008CE978 /* JSONTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,13 +148,6 @@
 				59FB20021AC4556C008CE978 /* test.json in Resources */,
 				59FB1FEC1AC452FE008CE978 /* LaunchScreen.xib in Resources */,
 				59FB1FE91AC452FE008CE978 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59FB1FEF1AC452FE008CE978 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,23 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59FB1FED1AC452FE008CE978 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59FB1FF81AC452FE008CE978 /* JSONTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		59FB1FF31AC452FE008CE978 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 59FB1FD71AC452FE008CE978 /* JSONTest */;
-			targetProxy = 59FB1FF21AC452FE008CE978 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		59FB1FE51AC452FE008CE978 /* Main.storyboard */ = {
@@ -377,40 +291,6 @@
 			};
 			name = Release;
 		};
-		59FB1FFF1AC452FE008CE978 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JSONTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONTest.app/JSONTest";
-			};
-			name = Debug;
-		};
-		59FB20001AC452FE008CE978 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JSONTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONTest.app/JSONTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -428,15 +308,6 @@
 			buildConfigurations = (
 				59FB1FFC1AC452FE008CE978 /* Debug */,
 				59FB1FFD1AC452FE008CE978 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59FB1FFE1AC452FE008CE978 /* Build configuration list for PBXNativeTarget "JSONTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59FB1FFF1AC452FE008CE978 /* Debug */,
-				59FB20001AC452FE008CE978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
