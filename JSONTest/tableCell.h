@@ -15,5 +15,7 @@
 @property (nonatomic, strong) NSString* time;
 @property (nonatomic, strong) NSString* room;
 @property (nonatomic, strong) NSString* details;
+@property (nonatomic, strong) UIImage* image;
+@property (nonatomic, strong) NSString* imageUrl;
 
 @end
